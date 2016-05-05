@@ -2,7 +2,7 @@ console.clear();
 
 $(function() {
 
-$('nav li a, .mobilenav li a').click(function(){
+$('nav li a, .mobilenav li a').on('click touchstart',function(){
   var headerHeight = $('header').height();
 
   var a = $(this).attr('href')
@@ -23,3 +23,8 @@ $('nav li a, .mobilenav li a').click(function(){
 
 
 });
+
+
+$("#button").click(function(){
+    alert("Thanks for the message! Talk to you soon!");
+ });

@@ -22,6 +22,7 @@ nav li {
 
 a:hover {
   color:#00BCD4;
+  transition: all .25s ease;
 }
 
 #container {
@@ -115,13 +116,19 @@ h2 {
 
 }
 
+.form {
+  text-align:center;
+  color:white;
+
+}
+
 #form1{
   text-align:center;
   color: white;
 
 }
 
-#button-blue {
+#button {
   width:50px;
 }
 input {
@@ -129,6 +136,9 @@ input {
   font-family: 'Amatic SC', cursive;
   width: 150px;
   height: 20px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 
 }
 
@@ -280,8 +290,13 @@ a {
 
   }
 
+  #button {
+    color:white;
+  }
+
 .circle {
   display:block;
   margin: 0 auto;
   }
+
 }
