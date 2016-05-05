@@ -2,9 +2,9 @@ body {
   font-family: 'Amatic SC', cursive;
   background:url(chineseny.jpg) top right no-repeat; background-attachment:fixed;
 
-
-
 }
+
+
 
 nav a {
     display: block;
@@ -65,7 +65,7 @@ h2 {
   color: #fff;
   text-align: center;
   font-size:25px;
-  width: 600px;
+  width: 800px;
   margin:auto;
   padding-top:25px;
   padding-bottom: 20px;
